@@ -1,0 +1,30 @@
+.jumbotron{
+	height: 90vh;
+	background-image: url('./img/ciater.jpeg');
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jumbotron :after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(223, 4, 66, 0.4);
+}
+.jumbotron h3{
+	color: #fff;
+	z-index: 0.1;
+	padding: 20px 20px;
+	border: 3px solid #fff;
+}
+.section{
+	padding: 50px 0;
+}
+section {
+	padding-top: 5rem;
+}
